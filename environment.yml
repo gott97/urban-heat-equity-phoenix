@@ -1,0 +1,13 @@
+name: urban-heat-equity
+channels:
+  - esri
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - arcgis
+  - arcpy
+  - pandas
+  - numpy
+  - matplotlib
+  - requests
