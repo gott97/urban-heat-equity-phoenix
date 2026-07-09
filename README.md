@@ -3,18 +3,11 @@
 ![ArcPy](https://img.shields.io/badge/ArcPy-Spatial%20Analysis-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-## Live Project
-
-🌐 StoryMap:
-https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a
-
-🗺 Interactive Web Map:
-[<web_map_URL>](https://arcg.is/0P14nu1)
-
-📄 Hosted Feature Layer:
-<[feature layer URL](https://services6.arcgis.com/SDdpEAs6WyhEBmTu/arcgis/rest/services/Phoenix_Urban_Heat_Island_and_Tree_Canopy_Equity_Analysis/FeatureServer)>
-
 # Phoenix Urban Heat Island & Tree Canopy Equity Analysis
+*A reproducible GIS and Python workflow for identifying urban heat equity priorities using Landsat, tree canopy, and U.S. Census data.*
+<p align="center">
+  <img src="docs/thumbnail.png" width="600">
+</p>
 
 ## Project Overview
 
@@ -22,6 +15,10 @@ This project demonstrates a fully automated GIS workflow for identifying urban h
 
 The project was developed as a professional portfolio piece to demonstrate geospatial analysis, Python automation, remote sensing, and ArcGIS Online publishing using reproducible workflows.
 
+### Interactive Products
+- 🌐 StoryMap: <https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a>
+- 🗺️ Interactive Web Map: <https://arcg.is/0P14nu1>
+- 📊 Hosted Feature Layer: <https://arcgotthard.maps.arcgis.com/home/item.html?id=ce7bf1e5ed3d44abb6b15c9e865dcad8#overview>
 ---
 
 ## Objectives
@@ -36,8 +33,9 @@ The project was developed as a professional portfolio piece to demonstrate geosp
 ---
 
 ## Workflow
-
-![Workflow Diagram](figures/workflow.png)
+<p align="center">
+  <img src="docs/Workflow_diagram.png" width="650">
+</p>
 
 The workflow consists of five major stages:
 
@@ -57,7 +55,9 @@ The workflow consists of five major stages:
 
 ### Interactive Web Map
 
-*Insert Web Map screenshot here*
+<p align="center">
+  <img src="docs/webmap.png" width="650">
+</p>
 
 ### Example Analysis
 
@@ -117,7 +117,9 @@ Run the notebooks in the following order:
 ---
 
 ## Results
-
+<p align="center">
+  <img src="docs/priority_map.png" width="650">
+</p>
 The completed workflow produces:
 
 - Hosted Feature Layer
