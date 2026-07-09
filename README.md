@@ -6,7 +6,7 @@
 # Phoenix Urban Heat Island & Tree Canopy Equity Analysis
 *A reproducible GIS and Python workflow for identifying urban heat equity priorities using Landsat, tree canopy, and U.S. Census data.*
 <p align="center">
-  <img src="docs/thumbnail.png" width="600">
+  <img src="docs/storymap_thumbnail.png" width="600">
 </p>
 
 ## Project Overview
