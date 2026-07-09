@@ -9,16 +9,17 @@
   <img src="docs/storymap_thumbnail.png" width="600">
 </p>
 
+### Interactive Products
+- 🌐 StoryMap: <https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a>
+- 🗺️ Interactive Web Map: <https://arcg.is/0P14nu1>
+- 📊 Hosted Feature Layer: <https://arcgotthard.maps.arcgis.com/home/item.html?id=ce7bf1e5ed3d44abb6b15c9e865dcad8#overview>
+
 ## Project Overview
 
 This project demonstrates a fully automated GIS workflow for identifying urban heat equity priorities across the City of Phoenix, Arizona. Using Landsat Collection 2 thermal imagery, National Land Cover Database (NLCD) Tree Canopy Cover, and American Community Survey (ACS) demographic data, the workflow quantifies the relationship between land surface temperature, tree canopy, and socioeconomic characteristics at the census tract level.
 
 The project was developed as a professional portfolio piece to demonstrate geospatial analysis, Python automation, remote sensing, and ArcGIS Online publishing using reproducible workflows.
 
-### Interactive Products
-- 🌐 StoryMap: <https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a>
-- 🗺️ Interactive Web Map: <https://arcg.is/0P14nu1>
-- 📊 Hosted Feature Layer: <https://arcgotthard.maps.arcgis.com/home/item.html?id=ce7bf1e5ed3d44abb6b15c9e865dcad8#overview>
 ---
 
 ## Objectives
@@ -63,19 +64,15 @@ The workflow consists of five major stages:
 
 <h3>Example Analysis</h3>
 
-<table>
-<tr>
-<td align="center">
-<b>Income vs Temperature</b><br><br>
-<img src="docs/income_vs_temperature.png" width="400">
-</td>
+<p align="center">
+  <img src="docs/income_vs_temperature.png" width="400">
+  <img src="docs/canopy_vs_temperature.png" width="400">
+</p>
 
-<td align="center">
-<b>Tree Canopy vs Temperature</b><br><br>
-<img src="docs/canopy_vs_temperature.png" width="400">
-</td>
-</tr>
-</table>
+<p align="center">
+<b>Income vs Temperature</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Tree Canopy vs Temperature</b>
+</p>
 ---
 
 ## Data Sources
@@ -91,15 +88,16 @@ The workflow consists of five major stages:
 ## Repository Structure
 
 ```
-Phoenix-Urban-Heat-Equity-Analysis/
+UrbanHeatEquity/
 │
+├── data/
+├── notebooks/
+├── scripts/
+├── outputs/
+├── docs/
 ├── README.md
 ├── environment.yml
-├── .gitignore
-├── notebooks/
-├── figures/
-├── scripts/
-└── outputs/
+└── .gitignore
 ```
 
 ---
@@ -130,6 +128,13 @@ Run the notebooks in the following order:
 <p align="center">
   <img src="docs/priority_map.png" width="650">
 </p>
+
+## Correlation Analysis
+
+<p align="center">
+  <img src="docs/correlation_matrix.png" width="500">
+</p>
+
 The completed workflow produces:
 
 - Hosted Feature Layer
@@ -155,14 +160,15 @@ The completed workflow produces:
 - Census API
 ---
 
-## Author
+## Contact
 
-**Ava Gotthard**
+Ava Gotthard
 
-GIS Analyst | Remote Sensing | Spatial Analysis | Python Automation
+LinkedIn:
+<https://linkedin.com/in/agotthard>
 
-**LinkedIn:**
-<https://www.linkedin.com/in/agotthard/>
+Portfolio:
+<https://arcgotthard.maps.arcgis.com/home/index.html>
 
 
 ## License and Data Use
