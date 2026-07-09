@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ArcGIS Pro
+*.lock
+*.sr.lock
+*.aprx.lock
+
+# Conda
+.env
+.venv
+
+# API Keys
+config.py
+
+# Temporary outputs
+scratch/
+temp/
