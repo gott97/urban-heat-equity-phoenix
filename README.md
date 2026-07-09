@@ -51,7 +51,9 @@ The workflow consists of five major stages:
 
 ### StoryMap
 
-*Insert StoryMap screenshot here*
+<p align="center">
+  <img src="docs/Storymap_Screenshot.png" width="650">
+</p>
 
 ### Interactive Web Map
 
@@ -59,23 +61,31 @@ The workflow consists of five major stages:
   <img src="docs/webmap.png" width="650">
 </p>
 
-### Example Analysis
+<h3>Example Analysis</h3>
 
-| Income vs Temperature | Tree Canopy vs Temperature |
-|------------------------|----------------------------|
-| *(insert image)* | *(insert image)* |
+<table>
+<tr>
+<td align="center">
+<b>Income vs Temperature</b><br><br>
+<img src="docs/income_vs_temperature.png" width="400">
+</td>
 
+<td align="center">
+<b>Tree Canopy vs Temperature</b><br><br>
+<img src="docs/canopy_vs_temperature.png" width="400">
+</td>
+</tr>
+</table>
 ---
 
 ## Data Sources
 
 | Dataset | Source |
-|---------|--------|
+|---|---|
 | Landsat Collection 2 Level-2 | Microsoft Planetary Computer |
 | Tree Canopy Cover | National Land Cover Database (NLCD) |
 | Census Tracts | U.S. Census Bureau TIGER/Line |
 | Demographics | U.S. Census Bureau ACS 5-Year Estimates |
-
 ---
 
 ## Repository Structure
@@ -143,27 +153,6 @@ The completed workflow produces:
 - Remote Sensing
 - Landsat Collection 2
 - Census API
-
----
-
-## Related Resources
-
-**StoryMap**
-
-*(Add StoryMap URL after publishing)*
-
-**Interactive Web Map**
-
-*(Add Web Map URL after publishing)*
-
-**Hosted Feature Layer**
-
-*(Add Hosted Feature Layer URL after publishing)*
-
-**LinkedIn**
-
-*(Add LinkedIn Profile URL)*
-
 ---
 
 ## Author
@@ -171,4 +160,11 @@ The completed workflow produces:
 **Ava Gotthard**
 
 GIS Analyst | Remote Sensing | Spatial Analysis | Python Automation
-The Python code, documentation, and original project materials are © Ava Gotthard and licensed under the MIT License. Public datasets remain subject to the terms and licenses of their respective providers, including the U.S. Census Bureau, USGS, and Esri where applicable.
+
+**LinkedIn:**
+<https://www.linkedin.com/in/agotthard/>
+
+
+## License and Data Use
+
+The Python code, documentation, and original project materials are © Ava Gotthard and licensed under the MIT License. Public datasets remain subject to the terms and licenses of their respective providers.
