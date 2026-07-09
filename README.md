@@ -9,7 +9,7 @@
 https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a
 
 🗺 Interactive Web Map:
-[<web_map_URL>](https://arcgotthard.maps.arcgis.com/home/item.html?id=ec897793e7e74deaa97b9223499144ba#overview)
+[<web_map_URL>](https://arcg.is/0P14nu1)
 
 📄 Hosted Feature Layer:
 <[feature layer URL](https://services6.arcgis.com/SDdpEAs6WyhEBmTu/arcgis/rest/services/Phoenix_Urban_Heat_Island_and_Tree_Canopy_Equity_Analysis/FeatureServer)>
