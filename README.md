@@ -10,9 +10,9 @@
 </p>
 
 ### Interactive Products
-- 🌐 StoryMap: <https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a>
-- 🗺️ Interactive Web Map: <https://arcg.is/0P14nu1>
-- 📊 Hosted Feature Layer: <https://arcgotthard.maps.arcgis.com/home/item.html?id=ce7bf1e5ed3d44abb6b15c9e865dcad8#overview>
+- 🌐 **StoryMap**: <https://storymaps.arcgis.com/stories/e975b895c9354858ac33ba7044ac577a>
+- 🗺️ **Interactive Web Map**: <https://arcg.is/0P14nu1>
+- 📊 **Hosted Feature Layer**: <https://arcgotthard.maps.arcgis.com/home/item.html?id=ce7bf1e5ed3d44abb6b15c9e865dcad8#overview>
 
 ## Project Overview
 
@@ -35,7 +35,7 @@ The project was developed as a professional portfolio piece to demonstrate geosp
 
 ## Workflow
 <p align="center">
-  <img src="docs/Workflow_diagram.png" width="650">
+  <img src="docs/Workflow_diagram.png" width="300">
 </p>
 
 The workflow consists of five major stages:
@@ -73,7 +73,6 @@ The workflow consists of five major stages:
 <b>Income vs Temperature</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Tree Canopy vs Temperature</b>
 </p>
----
 
 ## Data Sources
 
@@ -125,6 +124,7 @@ Run the notebooks in the following order:
 ---
 
 ## Results
+The workflow successfully processed 434 Phoenix census tracts and produced a hosted feature layer, interactive web map, StoryMap, and statistical summaries for urban heat equity analysis.
 <p align="center">
   <img src="docs/priority_map.png" width="650">
 </p>
@@ -132,7 +132,7 @@ Run the notebooks in the following order:
 ## Correlation Analysis
 
 <p align="center">
-  <img src="docs/correlation_matrix.png" width="500">
+  <img src="docs/correlation_matrix.png" width="300">
 </p>
 
 The completed workflow produces:
@@ -148,27 +148,35 @@ The completed workflow produces:
 
 ## Technologies
 
+GIS:
 - ArcGIS Pro
 - ArcGIS Online
 - ArcPy
-- ArcGIS API for Python
+
+Python:
 - Python
 - pandas
 - matplotlib
-- Remote Sensing
+
+Data:
 - Landsat Collection 2
 - Census API
+- NLCD Tree Canopy
+
 ---
 
 ## Contact
 
 Ava Gotthard
 
+GitHub: 
+<https://github.com/gott97>
+
 LinkedIn:
 <https://linkedin.com/in/agotthard>
 
-Portfolio:
-<https://arcgotthard.maps.arcgis.com/home/index.html>
+ArcGIS Portfolio:
+<https://arcgottard.maps.arcgis.com>
 
 
 ## License and Data Use
